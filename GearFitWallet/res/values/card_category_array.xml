@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_category">
+        <item >HAPPY POINT</item>
+        <item >SKT</item>
+        <item >CJ ONE</item>
+        <item >OTHERS</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,41 @@
+01-24 22:43:13.814: I/Process(13755): Sending signal. PID: 13755 SIG: 9
+01-24 22:43:24.854: D/ResourcesManager(16307): creating new AssetManager and set to /data/app/com.disturb.gearfitwallet-2/base.apk
+01-24 22:43:24.914: V/BitmapFactory(16307): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+01-24 22:43:24.914: V/BitmapFactory(16307): DecodeImagePath(decodeResourceStream3) : res/drawable-hdpi/gearfitwalleticonbarcode.png
+01-24 22:43:24.934: V/BitmapFactory(16307): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/ic_ab_back_holo_light_am.png
+01-24 22:43:24.944: V/BitmapFactory(16307): DecodeImagePath(decodeResourceStream3) : res/drawable-xxhdpi-v4/sym_def_app_icon.png
+01-24 22:43:24.954: D/AbsListView(16307): Get MotionRecognitionManager
+01-24 22:43:24.954: D/Scup(16307): Scup jar version = 1.1.0
+01-24 22:43:25.034: D/SpiCodec(16307): JNI_OnLoad .. Done
+01-24 22:43:25.034: D/SM_SDK(16307): versionCode: 4
+01-24 22:43:25.044: E/DISTURB(16307): aAA
+01-24 22:43:25.044: I/ScupDialog(16307): New Dialog (100)
+01-24 22:43:25.044: D/AndroidRuntime(16307): Shutting down VM
+01-24 22:43:25.044: E/AndroidRuntime(16307): FATAL EXCEPTION: main
+01-24 22:43:25.044: E/AndroidRuntime(16307): Process: com.disturb.gearfitwallet, PID: 16307
+01-24 22:43:25.044: E/AndroidRuntime(16307): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.disturb.gearfitwallet/com.disturb.gearfitwallet.actvt.MainActivity}: java.lang.IllegalArgumentException: Service Intent must be explicit: Intent { act=com.samsung.android.sdk.cup.ScupService }
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2658)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2725)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ActivityThread.access$900(ActivityThread.java:172)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1422)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.os.Looper.loop(Looper.java:145)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ActivityThread.main(ActivityThread.java:5834)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at java.lang.reflect.Method.invoke(Native Method)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at java.lang.reflect.Method.invoke(Method.java:372)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1388)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1183)
+01-24 22:43:25.044: E/AndroidRuntime(16307): Caused by: java.lang.IllegalArgumentException: Service Intent must be explicit: Intent { act=com.samsung.android.sdk.cup.ScupService }
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ContextImpl.validateServiceIntent(ContextImpl.java:1982)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:2090)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ContextImpl.bindService(ContextImpl.java:2068)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:559)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.samsung.android.sdk.cup.ScupServiceCommunicator.connect(Unknown Source)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.samsung.android.sdk.cup.ScupDialog.construction(Unknown Source)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.samsung.android.sdk.cup.ScupDialog.<init>(Unknown Source)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.disturb.gearfitwallet.dlg.GearFitWalletDialog.<init>(GearFitWalletDialog.java:26)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at com.disturb.gearfitwallet.actvt.MainActivity.onCreate(MainActivity.java:90)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.Activity.performCreate(Activity.java:6221)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1119)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2611)
+01-24 22:43:25.044: E/AndroidRuntime(16307): 	... 10 more
